@@ -1,0 +1,15 @@
+server:
+  port: 9098
+spring:
+  application:
+    name: TicketBooking-IndianRailway
+  datasource:
+    url: jdbc:mysql://localhost:3306/railway
+    username: root
+    password: Ganesh@55
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
